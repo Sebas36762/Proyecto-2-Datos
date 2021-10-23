@@ -1,13 +1,15 @@
+<%@ page import="com.example.proyecto2datos.structure.Binarytree" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>BinaryTree</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+    <div>
+        <a href="Controlador?accion =lista"> Listar numero</a>
+    </div>
+
+
 </body>
 </html>
