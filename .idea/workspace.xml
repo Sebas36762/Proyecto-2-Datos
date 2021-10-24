@@ -10,14 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c661dd11-f7a4-452a-b295-02cb152fec9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interfaces/CRUD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Modelo/person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ModeloDAO/personaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/structure/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/structure/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/structure/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/structure/Utils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +79,7 @@
       <recent name="C:\Users\Ayuda pls\Documents\Algoritmo Y estructura de datos 1\Proyecto 2 Datos\src\main\webapp\BinaryTree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.proyecto2datos.IIStructure" />
       <recent name="config" />
     </key>
   </component>
@@ -136,7 +135,7 @@
       <workItem from="1634795558150" duration="50000" />
       <workItem from="1634931050762" duration="49000" />
       <workItem from="1634943773104" duration="4090000" />
-      <workItem from="1635100094415" duration="567000" />
+      <workItem from="1635100094415" duration="1435000" />
     </task>
     <servers />
   </component>

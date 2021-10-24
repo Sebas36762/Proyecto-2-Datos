@@ -31,11 +31,11 @@ public class Utils {
         return restructure;
     }
 
-    public String separate() {
+    public static String separate() {
         return separate();
     }
 
-    public String separate(String expression){
+    public static String separate(String expression){
 
         //String expression_exit;
         String expression_operator = "";
