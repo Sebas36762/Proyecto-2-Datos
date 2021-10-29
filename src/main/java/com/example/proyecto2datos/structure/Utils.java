@@ -58,5 +58,19 @@ public class Utils {
         System.out.println(expression_num + expression_operator);
         return expression_num + reverse(expression_operator);
     }
+    public static String charlist_s(char[] list){
+        String result="";
+        int i = 0;
+        while(result.length()< list.length) {
+            String num = Character.toString(list[i]);
+            result = result + num;
+            i++;
+
+
+        }
+
+
+        return result;
+    }
 }
 
