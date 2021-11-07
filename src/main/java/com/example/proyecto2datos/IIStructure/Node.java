@@ -1,18 +1,17 @@
 package com.example.proyecto2datos.IIStructure;
 import java.util.Stack;
 public class Node {
-    char data;
+    /*
+    Clase auxiliar para la creación del nodo,
+    con capacidades de balancear entre izquierda y derecha.
+    Valor Permitido tipo: String
+     */
+    String value;
     Node left, rigth;
-    Node(char data){
-
-        this.data = data;
-        this.left = this.rigth = null;
+    Node (String item){
+        value = item;
+        left = rigth = null;
     }
-    Node(char data, Node left, Node rigth){
-        this.data = data;
-        this.left = left;
-        this.rigth = rigth;
-
 
     }
-}
+

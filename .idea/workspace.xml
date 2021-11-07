@@ -10,14 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c661dd11-f7a4-452a-b295-02cb152fec9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/OperPila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Postfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/OperPila.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Postfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Postfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Binarytree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -156,7 +159,8 @@
       <workItem from="1634931050762" duration="49000" />
       <workItem from="1634943773104" duration="4090000" />
       <workItem from="1635100094415" duration="2643000" />
-      <workItem from="1635464555416" duration="4550000" />
+      <workItem from="1635464555416" duration="4651000" />
+      <workItem from="1636251762302" duration="2223000" />
     </task>
     <servers />
   </component>
@@ -175,45 +179,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
