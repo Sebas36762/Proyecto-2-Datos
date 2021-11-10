@@ -10,16 +10,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c661dd11-f7a4-452a-b295-02cb152fec9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/connection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/Imagenes/Fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/Interfaces/CRUD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/Modelo/person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/ModeloDAO/personaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Postfix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/structure/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/structure/Binarytree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/structure/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/structure/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.enterprise.cdi-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.inject-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.inject-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jboss-annotations-api_1.3_spec-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jboss-classfilewriter-1.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jboss-el-api_3.0_spec-2.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jboss-interceptors-api_1.2_spec-2.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-cdi2-se-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-entity-filtering-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-2.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/weld-api-3.1.SP4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/weld-core-impl-3.1.7.SP1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/weld-environment-common-3.1.7.SP1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/weld-probe-core-3.1.7.SP1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/weld-se-core-3.1.7.SP1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/lib/weld-spi-3.1.SP4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/css/estilos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Postfix.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +147,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 10.0.121" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.121" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/Proyecto_2_Datos_war_exploded/" />
       <deployment>
         <artifact name="Proyecto-2-Datos:war exploded">
           <settings>
@@ -112,7 +156,8 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="d3494631-6eb1-445f-a85b-9a1252872ee8" />
-        <option name="HTTP_PORT" value="8081" />
+        <option name="HTTP_PORT" value="8082" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -217,7 +262,8 @@
       <workItem from="1636521122505" duration="183000" />
       <workItem from="1636521477716" duration="4084000" />
       <workItem from="1636567096770" duration="591000" />
-      <workItem from="1636570925794" duration="7691000" />
+      <workItem from="1636570925794" duration="8189000" />
+      <workItem from="1636580794372" duration="61000" />
     </task>
     <servers />
   </component>
