@@ -1,4 +1,4 @@
-        <%@ page import="com.example.proyecto2datos.IIStructure.ExpressionTree" %>
+<%@ page import="com.example.proyecto2datos.IIStructure.ExpressionTree" %>
 <%@ page import="com.example.proyecto2datos.IIStructure.Postfix" %>
 <%@ page import="com.example.proyecto2datos.IIStructure.Node" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
@@ -34,7 +34,7 @@
 <body>
 <div id="Cuadro">
     <h4>
-            <%=Value%>
+        <%=Value%>
         <br></br>
         El resultado de la expresión ingresada es:
 
