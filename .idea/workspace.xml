@@ -10,17 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c661dd11-f7a4-452a-b295-02cb152fec9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/HelloResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/HelloServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/OperPila.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Postfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Postfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Binarytree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/structure/Utils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <recent name="config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExpressionTree">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.121">
     <configuration name="ExpressionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.proyecto2datos.IIStructure.ExpressionTree" />
       <module name="Proyecto-2-Datos" />
@@ -103,6 +102,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 10.0.121" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.121" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/Proyecto_2_Datos_war_exploded/" />
       <deployment>
         <artifact name="Proyecto-2-Datos:war exploded">
           <settings>
@@ -112,12 +112,61 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="d3494631-6eb1-445f-a85b-9a1252872ee8" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57354" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -140,6 +189,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ExpressionTree" />
+      <item itemvalue="Tomcat Server.Tomcat 10.0.121" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExpressionTree" />
@@ -161,6 +214,10 @@
       <workItem from="1635100094415" duration="2643000" />
       <workItem from="1635464555416" duration="4651000" />
       <workItem from="1636251762302" duration="2223000" />
+      <workItem from="1636521122505" duration="183000" />
+      <workItem from="1636521477716" duration="4084000" />
+      <workItem from="1636567096770" duration="591000" />
+      <workItem from="1636570925794" duration="7691000" />
     </task>
     <servers />
   </component>
