@@ -3,11 +3,26 @@ package com.example.proyecto2datos.IIStructure;
 import java.util.Stack;
 
 public class ExpressionTree {
+    /*
+    Instituto tecnológico de Costa Rica
+    Ingeniería en computadores
+    Estudiantes: Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
+
+    Clase: Creación de del árbol binario, calculador y funciones de apoyo
+    restricciones: Valores que no sea expresiones algebraicas, como letras o caracteres.
+    Basado en GeeksforGeeks. (2021).
+    GeeksforGeeks. (2021). Binary Tree Data Structure. https://www.geeksforgeeks.org/binary-tree-data-structure/
+     */
     boolean isOperator(char c) {
         /*
-        Entrada Char
-        Salida Boolean
-        Este metodo indetifica si el char es un operador.
+        Instituto tecnológico de Costa Rica
+        Ingeniería en computadores
+        Estudiantes Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
+
+        Función: Identificar si el indice del char el operador.
+        entrada: Operadores de tipo char.
+        salida: Confirmación en manera de Booleanos.
+        Restricciones: Enteros, Strings..
          */
         if (c == '+' || c == '-' || c == '*' || c == '/' || c == '^') {
             return true;
@@ -17,9 +32,14 @@ public class ExpressionTree {
 
     boolean isParent(char c) {
         /*
-        Entrada Char
-        Salida Boolean
-        Este metodo indetifica si el char es un parentesis.
+        Instituto tecnológico de Costa Rica
+        Ingeniería en computadores
+        Estudiantes Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
+
+        Función: Identificar si el indice del char es un parentesis.
+        entrada: Operadores de tipo char.
+        salida: Confirmación en manera de Booleanos.
+        Restricciones: Enteros, Strings..
          */
 
         if (c == '(' || c == ')') {
@@ -32,11 +52,15 @@ public class ExpressionTree {
 
 
     public Node constructTree(char postfix[]) {
-        /*
-        Entrada Char list
-        Salida Node
-        Este metodo crea el árbol binario con la Char list
+         /*
+        Instituto tecnológico de Costa Rica
+        Ingeniería en computadores
+        Estudiantes Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
 
+        Función: Creación del árbol.
+        entrada: Lista char con la expresión.
+        salida: Node árbol.
+        Restricciones: Enteros, Strings, lista String..
          */
         Stack<Node> st = new Stack<Node>();
         Node t, t1, t2;
@@ -66,11 +90,15 @@ public class ExpressionTree {
 
     public double calculator(Node tree) {
 
-        /*
-        Entrada Node Tree
-        Salida double
-        Este metodo es una calculadora que retorna el resultado de la operación que
-        contenga el árbol.
+       /*
+        Instituto tecnológico de Costa Rica
+        Ingeniería en computadores
+        Estudiantes Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
+
+        Función: Calcular lo expresión que contiene el árbol.
+        entrada: Node árbol.
+        salida: El resultado de la expresión en Double.
+        Restricciones: Enteros, Strings, listas...
          */
         if (tree.left == null && tree.rigth == null) {
 
@@ -82,7 +110,7 @@ public class ExpressionTree {
             double right = calculator(tree.rigth);
             String operator = tree.value;
 
-            switch (operator) {
+            switch (operator) { //Se hace el calculo dependiendo del operador
                 case "+":
                     result = left + right;
                     break;
@@ -108,113 +136,31 @@ public class ExpressionTree {
     }
     public static int toDigit(String e) {
         /*
-        Entrada String
-        Salida int
-        Este metodo convierte el digito a entero.
+        Instituto tecnológico de Costa Rica
+        Ingeniería en computadores
+        Estudiantes Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
+
+        Función: Convertir el indice en digito.
+        entrada: Indice en string
+        salida: Entero
+        Restricciones: Enteros, Char, listas...
          */
         char i = e.charAt(0);
-        return  i - '0';
+        return  i;
 
 
     }
 
-    public static double main (String ex){
+   public static double main (String ex){
 
-        ExpressionTree et = new ExpressionTree();
-        Postfix postfix = new Postfix();
-        Node root = et.constructTree(postfix.convertToPostfix(ex).toCharArray());
-        System.out.println( et.calculator(root));
-        return et.calculator(root);
+       ExpressionTree et = new ExpressionTree();
+       Postfix postfix = new Postfix();
+       Node root = et.constructTree(postfix.convertToPostfix(ex).toCharArray());
+       System.out.println( et.calculator(root));
+       return et.calculator(root);
 
     }
-    public static int precedence(char ch)
-    {
-        /*
-        Entrada Char
-        Salida Entero
-        Este metodo indetifica si el char es un operador.
-         */
-        if(ch=='+' || ch=='-')
-            return 1;
 
-        else if(ch=='*' || ch=='/')
-            return 2;
-
-        return 0;
-    }
-    public static String convertToPostfix(String exp)
-    { /*
-         Entrada String, la expresión infija
-         Salida String,  la expresión postfija
-         Este metodo convierte el string (expresión) de fija a postfija.
-              */
-
-        Stack<Character> operators = new Stack<>();
-        Stack<String> postFix = new Stack<>();
-
-        for(int i=0;i<exp.length();i++)
-        {
-            char ch=exp.charAt(i);         // current character.
-
-            if(ch=='(')
-                operators.push(ch);
-
-            else if((ch>='0' && ch<='9') || (ch>='A' && ch<='Z'))
-                postFix.push(ch+"");
-
-            else if(ch==')')
-            {
-                while(operators.peek()!= '(')
-                {
-                    // STEP 5 of Algorithm.
-                    char op = operators.pop();
-
-                    String first = postFix.pop();          // get the two operands.
-                    String second = postFix.pop();
-
-                    String new_postFix = second+first+op;
-
-                    postFix.push(new_postFix);
-                }
-
-                operators.pop();
-            }
-
-
-            else if(ch=='+' || ch=='-' || ch== '*' || ch== '/')
-            {
-
-                while(operators.size()>0 && operators.peek()!='(' && precedence(ch) <= precedence(operators.peek()))
-                {
-                    char op = operators.pop();
-
-                    String first = postFix.pop();
-                    String second = postFix.pop();
-
-                    String new_postFix = second+first+op;
-
-                    postFix.push(new_postFix);
-                }
-
-                operators.push(ch);
-            }
-        }
-
-
-        while(operators.size()>0)
-        {
-            char op = operators.pop();
-
-            String first = postFix.pop();
-            String second = postFix.pop();
-
-            String new_postFix = second+first+op;
-
-            postFix.push(new_postFix);
-        }
-
-        return postFix.pop();
-    }
 
 }
 
