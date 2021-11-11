@@ -3,6 +3,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <%
+        /** Instituto Tecnológico de Costa Rica
+         * Area de Ingeniería en Computadores
+         *
+         * Lenguaje: Java
+         * Clase: index.jsp
+         * @version 1.0
+         * @author Fabian Ceciliano y Sebastián Chaves
+         * Descripcion:
+         * Crecion de interfaz grafica del programa
+         */
+    %>
     <title>BinaryTree</title>
     <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
 
@@ -15,6 +27,7 @@
             <input name="txtdatos" id="txtdatos" type="text" class="Entrada" required=""  />
             <br/><br/>
             <input type="submit"value="Enviar" id="BotonEnv" name="BotonEnv">
+            <i class="fas fa-file-excel"></i> 
             <br/><br/>
         </form>
 

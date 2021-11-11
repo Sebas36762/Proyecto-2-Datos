@@ -10,14 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c661dd11-f7a4-452a-b295-02cb152fec9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/ExpressionTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Postfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyecto2datos/IIStructure/Postfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/procesar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Postfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/WEB-INF/classes/com/example/proyecto2datos/IIStructure/Postfix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Proyecto-2-Datos-1.0-SNAPSHOT/procesar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/ExpressionTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Postfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/proyecto2datos/IIStructure/Postfix.class" afterDir="false" />
@@ -32,8 +38,8 @@
       <list>
         <option value="Interface" />
         <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -239,6 +245,7 @@
       <workItem from="1636608325499" duration="7387000" />
       <workItem from="1636616690289" duration="165000" />
       <workItem from="1636616873712" duration="33000" />
+      <workItem from="1636648805634" duration="3477000" />
     </task>
     <servers />
   </component>

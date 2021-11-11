@@ -4,32 +4,41 @@ import java.util.Stack;
 
 public class Postfix {
 
-     /*
-    Instituto tecnológico de Costa Rica
-    Ingeniería en computadores
-    Estudiantes: Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
-
-    Clase:Conversión de expresiones infijas a postfijas con metodos
-    como el convertor y demás para apoyo.
-
-    Restricciones: Char, Enteros, lista...
-    Basado en la implementación de  Jain, S. (2020, 14 junio)
-    Jain, S. (2020, 14 junio). Convert Infix to Postfix Expression - Java Code | TutorialHorizon. Algorithms.
-        https://algorithms.tutorialhorizon.com/convert-infix-to-postfix-expression/
+    /**
+     * Instituto Tecnológico de Costa Rica
+     * Area de Ingeniería en Computadores
+     *
+     * Lenguaje: Java
+     * Clase: ExpressionTree
+     * @version 1.0
+     * @author Fabian Ceciliano y Sebastián Chaves
+     *
+     * Descripción:
+     * Clase:Conversión de expresiones infijas a postfijas con metodos
+     * como el convertor y demás para apoyo.
+     * Restricciones: Char, Enteros, lista...
+     * Basado en la implementación de  Jain, S. (2020, 14 junio)
+     * Jain, S. (2020, 14 junio). Convert Infix to Postfix Expression - Java Code | TutorialHorizon. Algorithms.
+     * https://algorithms.tutorialhorizon.com/convert-infix-to-postfix-expression/
      */
 
 
     public static int precedence(char ch)
     {
-         /*
-        Instituto tecnológico de Costa Rica
-        Ingeniería en computadores
-        Estudiantes Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
-
-        Función: Indentificar que tipo de operador es.
-        entrada: Operador en char
-        salida: Entero.
-        Restricciones: Enteros, Strings, listas...
+        /**
+         * Instituto Tecnológico de Costa Rica
+         * Area de Ingeniería en Computadores
+         *
+         * Lenguaje: Java
+         * Clase: Node
+         * @version 1.0
+         * @author Fabian Ceciliano y Sebastián Chaves
+         *
+         * Descripción:
+         * Indentificar que tipo de operador es.
+         * entrada: Operador en char
+         * salida: Entero.
+         * Restricciones: Enteros, Strings, listas...
          */
         if(ch=='+' || ch=='-')
             return 1;
@@ -40,15 +49,21 @@ public class Postfix {
         return 0;
     }
     public static String convertToPostfix(String exp)
-    {   /*
-        Instituto tecnológico de Costa Rica
-        Ingeniería en computadores
-        Estudiantes Angelo Fabian Ceciliano Ortega, Sebastian Chaves Ruiz.
-
-        Función: Convertir la expresión de infija a postfija.
-        entrada: Expresión en String.
-        salida: El resultado de la conversión de la expresión en String.
-        Restricciones: Enteros, Char, listas...
+    {
+        /**
+         * Instituto Tecnológico de Costa Rica
+         * Area de Ingeniería en Computadores
+         *
+         * Lenguaje: Java
+         * Clase: Postfix
+         * @version 1.0
+         * @author Fabian Ceciliano y Sebastián Chaves
+         *
+         * Descripción:
+         * Función: Convertir la expresión de infija a postfija.
+         * entrada: Expresión en String.
+         * salida: El resultado de la conversión de la expresión en String.
+         * Restricciones: Enteros, Char, listas...
          */
         Stack<Character> operators = new Stack<>();
         Stack<String> postFix = new Stack<>();
